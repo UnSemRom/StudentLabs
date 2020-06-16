@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>813</width>
+    <height>581</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="12" column="1">
+     <widget class="QLabel" name="lb_max">
+      <property name="text">
+       <string>Максимум:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2" colspan="3">
+     <widget class="QLabel" name="lab_inf_app_selected_file">
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+background-color:rgb(255, 255, 255);
+border: 1px solid rgb(121, 121, 121);
+
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2" colspan="3">
+     <widget class="QLineEdit" name="le_ent_col"/>
+    </item>
+    <item row="4" column="2" colspan="3">
+     <widget class="QLineEdit" name="le_ent_reg"/>
+    </item>
+    <item row="11" column="1">
+     <widget class="QLabel" name="lb_min">
+      <property name="text">
+       <string>Минимум:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1" colspan="2">
+     <widget class="QTableView" name="tab_reg"/>
+    </item>
+    <item row="10" column="1" colspan="4">
+     <widget class="QPushButton" name="btn_cal_met">
+      <property name="text">
+       <string>Calculate metrics</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="4">
+     <widget class="QPushButton" name="btn_file_select">
+      <property name="text">
+       <string>Выбрать файл</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="2" colspan="3">
+     <widget class="QLabel" name="lb_inf_max">
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+background-color:rgb(255, 255, 255);
+border: 1px solid rgb(121, 121, 121);
+
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1" colspan="4">
+     <widget class="QPushButton" name="bnt_load_data">
+      <property name="text">
+       <string>Load data</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="lab_ent_reg">
+      <property name="text">
+       <string>Введите Регион</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="lab_inf_selected_file">
+      <property name="text">
+       <string>Выбранный файл</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QLabel" name="lb_med">
+      <property name="text">
+       <string>Медиана:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="2" colspan="3">
+     <widget class="QLabel" name="lb_inf_med">
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+background-color:rgb(255, 255, 255);
+border: 1px solid rgb(121, 121, 121);
+
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLabel" name="lab_num_col">
+      <property name="text">
+       <string>Введите номер колонки</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3" colspan="2">
+     <widget class="QLabel" name="lab_graph">
+      <property name="text">
+       <string>---------------------------График для метрик---------------------------</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="2" colspan="3">
+     <widget class="QLabel" name="lb_inf_min">
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+background-color:rgb(255, 255, 255);
+border: 1px solid rgb(121, 121, 121);
+
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>813</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
