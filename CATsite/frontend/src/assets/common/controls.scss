@@ -1,0 +1,24 @@
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: $label-color;
+}
+input {
+  padding: 16px 26px;
+  //margin-bottom: 30px;
+  border-radius: 20px;
+  border-color: $border-color;
+  color: $input-color;
+  &::placeholder{
+    color: $placeholder-color;
+  }
+}
+textarea {
+  padding: 30px 27px;
+  border-radius: 14px;
+}
+input, textarea {
+  width: 100%;
+}

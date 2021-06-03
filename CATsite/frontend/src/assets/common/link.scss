@@ -1,0 +1,17 @@
+.link {
+  cursor: pointer;
+  border-bottom: 1px solid $border-color;
+  color: $second-primary-color;
+  &.linkWhite {
+    border-bottom: 1px solid white;
+    color: white;
+  }
+  &.linkFalse {
+    border-bottom: 1px solid $danger-color;
+    color: $danger-color;
+  }
+  &.linkTrue {
+    border-bottom: 1px solid $success-color;
+    color: $success-color;
+  }
+}

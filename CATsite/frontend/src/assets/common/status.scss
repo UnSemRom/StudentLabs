@@ -1,0 +1,22 @@
+.status {
+  margin-right: 10px;
+  &:before {
+    display: inline-block;
+    content: '\A';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  &.false {
+    color: $danger-color ;
+    &:before {
+      background: $danger-color ;
+    }
+  }
+  &.true {
+    color: $success-color ;
+    &:before {
+      background: $success-color ;
+    }
+  }
+}
