@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@revolist/vue-datagrid": "^3.0.9",
-    "axios": "^0.21.1",
+    "axios": "^1.12.0",
     "core-js": "^3.6.5",
     "cors": "^2.8.5",
     "downloadjs": "^1.4.7",
